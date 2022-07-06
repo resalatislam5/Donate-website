@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.btn-button{
+    padding: 10px 15px;
+    background-color: #FF5959;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.h1_center{
+    text-align: center;
+}
+.p_center{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+}
+/*============================================
+top_banner
+=============================================*/
+#top_banner{
+    background-image: url(image/donation9.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size:cover ;
+}
+.inner_top_banner{
+    text-align: center;
+    padding: 180px;
+}
+.inner_top_banner h1{
+  font-size: 65px;
+    font-weight: bold;
+    color: #fff;
+}
+.inner_top_banner p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0;
+}
+
+/*============================================
+Donate_today
+=============================================*/
+#Donate_today{
+clear: both;
+
+}
+.inner_Donate_today{
+    margin-top: 130px;
+}
+.inner_Donate_today h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212;
+}
+.inner_Donate_today p{
+   padding: 2% 20%;
+}
+.valu{
+    margin: 2% 13%;  
+    text-align: center;
+}
+.valu button{
+    margin: 0 2%;
+    padding: 30px 30px ;
+    border: 0px solid;
+    border-radius: 8%;
+}
+.valu .valu_color{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #ff59594b;
+}
+
+.valu input{
+    width: 100%;
+    display:block;
+    border: 0px solid;
+    margin: 40px 0;
+    position: relative;
+}
+.valu input::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 10px;
+    background-color: red;
+   
+}
+
+
+/*============================================
+Donate_Plan
+=============================================*/
+#Donate_Plan{
+    clear: both;
+}
+
+.inner_Donate_Plan{
+    margin-top: 130px;
+}
+.inner_Donate_Plan h1{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.inner_Donate_Plan p{
+    width: 70%;
+    margin: 0 auto;
+}
+.family{
+    display: flex;
+}
+.inner_family {
+    margin: 2% 3%;
+    width: 70%;
+    padding: 5%;
+}
+.inner_family h3{
+    font-size: 18px;
+    color: #121212;
+    padding: 7px 0;
+}
+.inner_family p{
+    font-size: 16px;
+    text-align: left;
+    width:70%;
+    margin: 0;
+}
+.inner_family img{
+    margin: 8% 25%;
+}
+.family_1{
+    background-color: #4f9da61f;
+}
+.family_2{
+    background-color: #ff595956;
+}
+
+.family_3{
+    background-color: #FFF4D6;
+}
+/*============================================
+Donate_adress
+=============================================*/
+#Donate_adress{
+    clear: both;
+}
+.inner_Donate_adress{
+    display: flex;
+    padding: 100px 0;
+    background-color: #70707048;
+}
+.common_Donate_adress .common_adress_bgcolor{
+    background-color: #707070;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0;
+}
+.common_Donate_adress p{
+    color: #707070;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+.common_Donate_adress{
+   margin: 0 3%;
+   background-color: #fff;
+   box-shadow: 4px 6px 16px 3px rgba(0,0,0,0.75);
+   padding: 0 ;
+}
+/*============================================
+Updates
+=============================================*/
+#Updates{
+    clear: both;
+}
+.inner_Updates{
+    margin: 150px 0;
+}
+.inner_Updates h1{
+    text-align: center;
+    color: #121212;
+    font-size: 45px;
+    padding-bottom: 3% ;
+}
+
+.updates_area{
+    background-color: #FFF4D6;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10%;
+    margin-top: 4%;
+}
+.updates_area input{
+    padding: 10px 20px;
+    background-color:#70707041;
+    border: 0px solid;
+    border-radius: 8px;
+    margin-left: 25%;
+}
+.updates_area a{
+    padding: 8px 20px;
+    background-color:#FF5959;
+    border: 0px solid;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+/*============================================
+footer
+=============================================*/
+footer{
+    background-color: #0B0D17;
+}
+footer h4{
+    color:#FF5959;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
